@@ -1,0 +1,40 @@
+/home/aniss/.rvm/rubies/ruby-1.9.3-p547/bin/ruby extconf.rb 
+checking for main() in -lpthread... yes
+creating Makefile
+
+make  clean
+
+make
+compiling v8.cc
+compiling backref.cc
+compiling constraints.cc
+compiling accessor.cc
+compiling stack.cc
+compiling trycatch.cc
+compiling external.cc
+compiling script.cc
+compiling signature.cc
+compiling object.cc
+compiling gc.cc
+compiling invocation.cc
+compiling init.cc
+compiling rr.cc
+compiling string.cc
+compiling exception.cc
+compiling heap.cc
+compiling context.cc
+compiling array.cc
+compiling handles.cc
+compiling message.cc
+compiling function.cc
+compiling value.cc
+compiling primitive.cc
+compiling constants.cc
+compiling date.cc
+compiling template.cc
+compiling locker.cc
+linking shared-object v8/init.so
+
+make  install
+/usr/bin/install -m 0755 init.so /home/aniss/.rvm/gems/ruby-1.9.3-p547/gems/therubyracer-0.12.1/ext/v8/.gem.20140807-1963-23nqp8/v8
+installing default init libraries

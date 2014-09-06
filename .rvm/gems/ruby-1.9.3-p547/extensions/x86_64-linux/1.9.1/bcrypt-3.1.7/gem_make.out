@@ -1,0 +1,17 @@
+/home/aniss/.rvm/rubies/ruby-1.9.3-p547/bin/ruby extconf.rb 
+checking for ruby/util.h... yes
+creating Makefile
+
+make  clean
+
+make
+compiling crypt_gensalt.c
+compiling crypt.c
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+make  install
+/usr/bin/install -m 0755 bcrypt_ext.so /home/aniss/.rvm/gems/ruby-1.9.3-p547/gems/bcrypt-3.1.7/ext/mri/.gem.20140807-3414-16fqbof
+installing default bcrypt_ext libraries

@@ -1,0 +1,13 @@
+/home/aniss/.rvm/rubies/ruby-1.9.3-p547/bin/ruby extconf.rb
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/4.0.48/rubyext-ruby-1.9.3-x86_64-linux.tar.gz into /home/aniss/.rvm/gems/ruby-1.9.3-p547/gems/passenger-4.0.48/download_cache
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/4.0.48/webhelper-1.6.0-x86_64-linux.tar.gz into /home/aniss/.rvm/gems/ruby-1.9.3-p547/gems/passenger-4.0.48/download_cache
+Attempting to download https://oss-binaries.phusionpassenger.com/binaries/passenger/by_release/4.0.48/support-x86_64-linux.tar.gz into /home/aniss/.rvm/gems/ruby-1.9.3-p547/gems/passenger-4.0.48/download_cache
+
+make  clean
+make: *** No rule to make target `clean'.  Stop.
+
+make
+true
+
+make  install
+true

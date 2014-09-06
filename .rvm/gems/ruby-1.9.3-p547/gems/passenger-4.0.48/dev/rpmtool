@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+require 'rake'
+
+class RpmTool
+	include Rake::DSL
+
+	def initialize(argv)
+		@argv = argv.dup
+	end
+
+	def start
+		parse_options
+	end
+
+private
+	def parse_options
+		sh "rake package:tarball"
+	end
+end
+
+RpmTool.new(ARGV).start

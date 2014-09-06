@@ -1,0 +1,36 @@
+/home/aniss/.rvm/rubies/ruby-1.9.3-p547/bin/ruby extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+make  clean
+
+make
+compiling http11.c
+http11.c: In function ‘http_field’:
+http11.c:70:3: warning: format not a string literal and no format arguments [-Wformat-security]
+http11.c:71:3: warning: format not a string literal and no format arguments [-Wformat-security]
+http11.c:77:22: error: ‘struct RString’ has no member named ‘ptr’
+http11.c:77:50: error: ‘struct RString’ has no member named ‘len’
+http11.c:77:27: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+http11.c: In function ‘request_uri’:
+http11.c:102:3: warning: format not a string literal and no format arguments [-Wformat-security]
+http11.c: In function ‘fragment’:
+http11.c:113:3: warning: format not a string literal and no format arguments [-Wformat-security]
+http11.c: In function ‘request_path’:
+http11.c:124:3: warning: format not a string literal and no format arguments [-Wformat-security]
+http11.c: In function ‘query_string’:
+http11.c:135:3: warning: format not a string literal and no format arguments [-Wformat-security]
+http11.c: In function ‘header_done’:
+http11.c:172:13: error: ‘struct RString’ has no member named ‘ptr’
+http11.c:172:13: error: ‘struct RString’ has no member named ‘ptr’
+http11.c:172:13: error: ‘struct RString’ has no member named ‘ptr’
+http11.c:174:89: error: ‘struct RString’ has no member named ‘ptr’
+http11.c:176:52: error: ‘struct RString’ has no member named ‘ptr’
+http11.c:177:26: error: ‘struct RString’ has no member named ‘len’
+http11.c: In function ‘HttpParser_execute’:
+http11.c:298:23: error: ‘struct RString’ has no member named ‘ptr’
+http11.c:299:23: error: ‘struct RString’ has no member named ‘len’
+http11.c:307:5: warning: format not a string literal and no format arguments [-Wformat-security]
+make: *** [http11.o] Error 1
+
+make failed, exit code 2
